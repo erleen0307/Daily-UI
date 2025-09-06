@@ -1,0 +1,177 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #1E1E1E;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Main Frame */
+.mainFrame {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 355px;
+    height: 700px;
+    background-color: #F8FAFC;
+    border: 1px solid #1E1E1E;
+    border-radius: 22px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); /* added shadow */
+}
+
+/* Phone Details */
+.phoneTopBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+    color: #1E1E1E;
+}
+
+.phoneTopBar p {
+    margin-left: 10px;
+}
+
+.phoneTopBar .icons {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+/* Main Top Content */
+.artFestDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 7px;
+}
+
+.artFestDiv h2, 
+.artFestDiv i, 
+.artFestDiv h4 {
+    color: #F43F5E;
+    font-style: italic;
+}
+
+.artFestDiv h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+    transition: all 0.2s ease-in;
+}
+
+.artFestDiv h2:hover, 
+.artFestDiv i:hover {
+    color: #ff3255;
+    font-size: 2.1rem;
+}
+
+h3 {
+    color: #7a828e;
+    margin-bottom: 10px;
+}
+
+/* FORM */
+.fullNameDiv, .emailDiv, .pswdDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 5px;
+    width: 100%;
+}
+
+.fullNameDiv label, .emailDiv label, .pswdDiv label {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.fullNameDiv input, .emailDiv input, .pswdDiv input {
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #1E1E1E;
+    padding: 6px 8px;
+    transition: all 0.2s ease-in;
+}
+
+.fullNameDiv input:focus, 
+.emailDiv input:focus, 
+.pswdDiv input:focus {
+    outline: none;
+    border: 1.5px solid #2563EB;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.4);
+}
+
+/* Terms */
+.termsDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0 17px 0;
+}
+
+.termsDiv a:hover {
+    text-decoration: none;
+}
+
+/* Create Account Options */
+.createAccBtn, .googleBtn, .appleBtn {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    width: 85%;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.createAccBtn {
+    background-color: #2563EB;
+    border: 1px solid blue;
+    color: #F8FAFC;
+    font-size: 1.1rem;
+}
+
+.createAccBtn:hover {
+    background-color: #2157ca;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.googleBtn, .appleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid darkgray;
+}
+
+.googleBtn:hover, .appleBtn:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.googleBtn img {
+    height: 30px;
+    width: 30px;    
+}
+
+.appleBtn img {
+    height: 35px;
+    width: 30px;
+}
+
+/* Have an account Option */
+.logInDiv {
+    display: flex;
+    gap: 8px;
+    font-size: 0.8rem;
+}
