@@ -1,0 +1,101 @@
+<!-- Create a sign up page, modal, form, or app screen related to 
+signing up for something. It could be for a volunteer event, 
+contest registration, a giveaway, or anything you can image. -->
+
+<!-- ArtFest 2025 – Creative Contest Registration -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ArtFest 2025</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Poppins Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="mainFrame">
+            <div class="phoneTopBar">
+                <p>1:06</p>
+                <!-- Icons -->
+                <div class="icons">
+                    <i class="fa-solid fa-signal"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+            </div>
+
+            <!-- ArtFest Div -->
+            <div class="artFestDiv">
+                <h2> <i class="fa-solid fa-palette"></i> ArtFest 2025</h2>            
+                <h4>Creative Contest Registration</h4>
+            </div>
+
+            <h3>Create an Account</h3>
+
+            <!-- Registration Form -->
+            <form>
+                <!-- Full Name -->
+                <div class="fullNameDiv">
+                    <label for="fullName">Full Name: </label>
+                    <input type="text" 
+                    placeholder="Enter full name"
+                    id="fullName">
+                </div>
+                
+                <!-- Email -->
+                <div class="emailDiv">
+                    <label for="email">Email: </label>
+                    <input type="text" 
+                    placeholder="jane@example.com"
+                    id="email">
+                </div>
+                
+                <!-- Password -->
+                <div class="pswdDiv">
+                    <label for="pswd">Password</label>
+                    <input type="password" 
+                    id="pswd">
+                </div>
+
+                <!-- Terms and Conditions -->
+                <div class="termsDiv">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">
+                        I agree to the <a href="#">terms & conditions</a>
+                    </label>
+                </div>
+            </form>
+
+            <!-- Create Account Button -->
+            <button class="createAccBtn">
+                Create Account
+            </button>
+
+            <!-- Continue with Google -->
+            <button class="googleBtn">
+                <img src="glogo.png"> Continue with Google
+            </button>
+
+            <!-- Continue with Apple -->
+            <button class="appleBtn">
+                <img src="apple_logo_black.png"> Continue with Apple
+            </button>
+            
+            <!-- Log In -->
+            <div class="logInDiv">
+                <p>Already have an account?</p>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </body>
+</html>
+
+
