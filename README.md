@@ -18,4 +18,10 @@ Create a sign up page, modal, form, or app screen related to signing up for some
 
 ---
 
+### Day 002
+
+Prompt: Credit Card Checkout
+Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc.
+
+---
 ✨ Goal: Build consistency, improve UI/UX skills, and explore creative interfaces.
