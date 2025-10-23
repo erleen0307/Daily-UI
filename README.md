@@ -13,28 +13,32 @@ I’m also posting these builds on my Instagram [@codeandcanvas.dev](https://ins
 
 ### Day 001
 
-Prompt: Sign Up
+**Prompt: Sign Up**
+
 Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration, a giveaway, or anything you can image.
 
 ---
 
 ### Day 002
 
-Prompt: Credit Card Checkout
+**Prompt: Credit Card Checkout**
+
 Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc.
 
 ---
 
 ### Day 003
 
-Prompt: Landing Page
+**Prompt: Landing Page**
+
 What's the main focus? Is it for a book, an album, a mobile app, a SaaS product? Consider important landing page elements (Headlines, call-to-action buttons, typography, clarity, etc.)
 
 ---
 
 ### Day 004
 
-Prompt: Calculation 
+**Prompt: Calculation**
+
 Design a calculation element or interface. Is it a standard calculator, a scientific one, or specialty calculator for something such as a home mortgage or auto loan? Is it to forecast a calculation such as for a credit score? Is it for a phone, a tablet, a web app?
 
 ---
